@@ -1,20 +1,21 @@
 body {
   /* coloring */
-  color: white;
-  background-color: black;
+  color: #292929;
+  background-color: white;
   /* sizing */
   padding: 1em;
   margin-left: auto;
   margin-right: auto;
   max-width: 50em;
+  /* text */
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* reactive image */
 img {
-  width: 45%;
+  width: 5%;
   height: auto;
   border-radius: 8px;
-  border: 8px solid white;
 }
 figcaption {
   padding-bottom: 20px;
@@ -27,32 +28,73 @@ div {
   color: black;
   background-color: white;
 }
-
+/* paragraph styling */
+p.top {
+  padding-top: 35px;
+}
+p.top-bold {
+  padding-top: 35px;
+  font-weight: bold;
+}
+p.bold {
+  font-weight: bold;
+}
+p {
+  padding-left: 125px;
+  padding-right: 125px;
+  text-align:justify;
+  font-weight: 300;
+}
+.contact p{
+  margin: 0;
+}
+.contact img{
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5;
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: white;
-  overflow: hidden;
+  overflow: visible;
+  position: fixed; /* Set the navbar to fixed position */
+top: 0; /* Position the navbar at the top of the page */
+width: 100%; /* Full width */
+background-size: 115% 100%;
+max-width: 50em;
+border-bottom:1px solid;
+border-color:grey;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  color: black;
+  float: right;
+  color: grey;
   background-color:white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: black;
-  color: white;
+  color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #292929;
-  color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.topnav a.title {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+
 }
