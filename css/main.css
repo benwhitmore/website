@@ -6,6 +6,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+
   max-width: 50%;
   min-width: 10%;
   /* text */
@@ -77,23 +78,26 @@ p.bold {
   font-weight: bold;
 }
 p {
-  padding-left: 125px;
-  padding-right: 125px;
+  padding-left: 10%;
+  padding-right: 10%;
   text-align:center;
-  font-weight: 300;
+  font-weight: 300;\
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5px;
 }
 
 h2 {
-  padding-left: 125px;
-  padding-right: 125px;
+  padding-left: 10%;
+  padding-right: 10%;
   text-align:center;
   font-weight: 300;
   padding-bottom: 5px;
   Padding-top: 5px;
 }
 h3 {
-  padding-left: 125px;
-  padding-right: 125px;
+  padding-left: 10%;
+  padding-right: 10%;
   text-align:center;
   font-weight: 300;
   padding-bottom: 5px;
@@ -175,8 +179,8 @@ p.warning {
   display: block;
   flex: 100%;
   padding-top: 4em;
-  padding-bottom: 0;
-  min-width: 580.5px;
+  padding-bottom: 10px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -205,6 +209,25 @@ p.warning {
 .topnav a.hamClass {
   display: block;
   color: blue;
+}
+
+p {
+  font-size: 100%;
+}
+
+@media only screen and (max-device-width: 839px) {
+p.warning {
+  padding-top: 2em;
+  padding-bottom: 5em;
+}
+}
+
+h2 {
+  font-size: 100%;
+}
+
+h3 {
+  font-size: 100%;
 }
 
 .hamCheck input:checked ~ .topnav a.hamClass {
