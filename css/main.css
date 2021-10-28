@@ -3,23 +3,63 @@ body {
   color: #292929;
   background-color: white;
   /* sizing */
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 50em;
-  padding: 5px;
+  max-width: 50%;
+  min-width: 10%;
   /* text */
     font-family: 'Quicksand', sans-serif;
 }
 
 body.content {
   padding-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* reactive image */
-img {
-  width: 5%;
-  height: auto;
+/* main gallery properties */
+.gallery {
+  line-height:0;
+   column-count:4; /* # of columns*/
+   column-gap:5px; /* space between columnms */
+
 }
+
+/* image size properties */
+img.mainIMG{
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  margin-bottom:5px; /* to match column gap*/
+}
+
+.gallery img:hover {
+   filter:none;
+   filter: drop-shadow(2.5px 2.5px 2.5px);
+}
+
+/* 2 columns for medium-sized screens*/
+
+@media (max-width: 800px) {
+  .gallery {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 800px) {
+  .gallery {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 400px) {
+  .gallery {
+    column-count: 1;
+  }
+}
+
+/* grid for images */
 
 div {
   color: black;
@@ -39,21 +79,42 @@ p.bold {
 p {
   padding-left: 125px;
   padding-right: 125px;
-  text-align:justify;
+  text-align:center;
   font-weight: 300;
-  min-width: 300px;
 }
-.contact p{
-  text-align: center;
+
+h2 {
+  padding-left: 125px;
+  padding-right: 125px;
+  text-align:center;
+  font-weight: 300;
+  padding-bottom: 5px;
+  Padding-top: 5px;
 }
-.contact img{
+h3 {
+  padding-left: 125px;
+  padding-right: 125px;
+  text-align:center;
+  font-weight: 300;
+  padding-bottom: 5px;
+  Padding-top: 5px;
+}
+
+/* contact page style info*/
+ .contact p {
+  width: 50%;
+  margin: auto;
+}
+
+.instaButton {
+  width: 10%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 2em;
 
-  width: 5;
 }
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: white;
@@ -62,9 +123,14 @@ p {
 top: 0; /* Position the navbar at the top of the page */
 width: 100%; /* Full width */
 background-size: 115% 100%;
-max-width: 50em;
+max-width: 50%;
 border-bottom:1px solid;
 border-color:grey;
+flex: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+z-index:1;
 }
 
 /* Style the links inside the navigation bar */
@@ -73,15 +139,14 @@ border-color:grey;
   color: grey;
   background-color:white;
   text-align: center;
-  padding: 10px 15px;
-  padding-left: 5px;
+  padding: 1% 1%;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
   font-family: 'Quicksand', sans-serif;
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnav a.topNavRightElement:hover {
   color: black;
 }
 
@@ -99,23 +164,59 @@ border-color:grey;
 
 }
 
-/* image row */
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
-
-/* */
-
 /* warning p */
 
 p.warning {
+  text-align: center;
   color: white;
   background-color: black;
   height: 4em;
   background-size: 110%;
+  display: block;
+  flex: 100%;
+  padding-top: 4em;
+  padding-bottom: 0;
+  min-width: 580.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav a.hamburger {
+  display: none;
+}
+
+/* hamburger menu test*/
+
+.topnav a.hamClass {
+  display: none;
+}
+.instaButton figure{
+  size: 5px;
+}
+
+
+@media only screen and (max-device-width: 1000px) {
+  /* smaller screen specific style (hamburger menu top nav)*/
+
+.topnav a.topNavRightElement {
+  display: none;
+}
+
+.topnav a.hamClass {
+  display: block;
+  color: blue;
+}
+
+.hamCheck input:checked ~ .topnav a.hamClass {
+  color: red;
+}
+
+.topnav a.title {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+
+}
+
 }
