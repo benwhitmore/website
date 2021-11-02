@@ -1,0 +1,9 @@
+banner dimensions: 2560x1440 (L,H)
+
+hamburger menu guide:
+https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
+https://sharkcoder.com/blocks/hamburger
+
+
+
+
