@@ -11,10 +11,11 @@ body {
   min-width: 10%;
   /* text */
     font-family: 'Quicksand', sans-serif;
+    padding-bottom: 5em;
 }
 
 body.content {
-  padding-top: 5em;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -221,6 +222,30 @@ h2.gallery02 {
 }
 
 
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  color: black;
+  text-align: left;
+  filter: grayscale(100%);
+}
+
+/* text format for cards in blog page*/
+
+.card h5{
+  text-align: right;
+  font-size: 90%;
+}
+.card p{
+  text-align: left;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
 @media only screen and (max-device-width: 1000px) {
   /* smaller screen specific style (hamburger menu top nav)*/
 
@@ -252,6 +277,7 @@ h3 {
   font-size: 100%;
 }
 
+
 .hamCheck input:checked ~ .topnav a.hamClass {
   color: red;
 }
@@ -264,5 +290,11 @@ h3 {
   color: white;
 
 }
+}
+
+p.blog {
+  font-size: 70%;
+  text-indent: 50px;
+  line-height: 140%;
 
 }

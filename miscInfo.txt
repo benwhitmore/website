@@ -4,6 +4,8 @@ hamburger menu guide:
 https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
 https://sharkcoder.com/blocks/hamburger
 
+drop-down menu guide:
+https://www.w3schools.com/Css/tryit.asp?filename=trycss_dropdown_navbar2
 
 
 
