@@ -209,7 +209,7 @@ h2.gallery02 {
 /* TEMP DISABLE, MESSES UP NAVBAR WIDTH ON MOBILE? */
 
   .topnav a.topNavRightElement {
-  display: none;
+  display: block;
   }
   
 
