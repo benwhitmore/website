@@ -99,6 +99,10 @@ h3 {
   margin: auto;
 }
 
+/* centering bottom page text */
+.pageBottom p {
+text-align: center;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
