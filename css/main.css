@@ -69,8 +69,13 @@ img.banIMG {
 
   body {
     width: 100%;
-    max-width: 100%;
+    max-width: 100%; /* not making content 100% page width */
   }
+  .topnav {
+     width: 100%;
+    max-width: 100%; /* might fix above */
+  }
+  
 }
 
 /* grid for images */
@@ -234,6 +239,12 @@ p {
 
   body {
   max-width: 100%;
+  width: 100%
+  }
+
+  .topnav {
+    max-width: 100%;
+    width: 100%
   }
 
 @media only screen and (max-device-width: 500px) {
@@ -243,7 +254,10 @@ p {
   body {
   max-width: 100%;
   }
-  
+  .topnav {
+    max-width: 100%;
+    width: 100%
+  }
   
   
   
