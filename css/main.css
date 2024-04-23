@@ -66,6 +66,11 @@ img.banIMG {
   .gallery {
     column-count: 1;
   }
+
+  body {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 /* grid for images */
