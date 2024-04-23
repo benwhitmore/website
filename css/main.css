@@ -193,11 +193,11 @@ h2.gallery02 {
   /* smaller screen specific style (hamburger menu top nav)*/
 /* TEMP DISABLE, MESSES UP NAVBAR WIDTH ON MOBILE? */
 
-  /*
+  
   .topnav a.topNavRightElement {
   display: block;
   }
-  */
+  
 
   /*
 .topnav a.hamClass {
