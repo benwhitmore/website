@@ -216,8 +216,12 @@ p {
 }
 
 .topnav a.title {
-  padding-left: 5em;
+  padding-left: 1em;
 }
+
+  .topnav {
+    width: 100%;
+  }
 
 
   
