@@ -209,7 +209,7 @@ h2.gallery02 {
 }
 
 
-@media only screen and (max-device-width: 1000px) {
+@media only screen and (max-device-width: 500px) {
   /* smaller screen specific style (hamburger menu top nav)*/
 
 .topnav a.topNavRightElement {
@@ -231,7 +231,7 @@ p {
   max-width: 100%;
   }
 
-@media only screen and (max-device-width: 839px) {
+@media only screen and (max-device-width: 500px) {
 
   /* Test for 100% width */
 
