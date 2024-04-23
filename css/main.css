@@ -213,6 +213,8 @@ h2.gallery02 {
 
   .topnav {
     min-width: 100%;
+    max-width: 100%;
+    width: 100%;
   }
 
 .topnav a.hamClass {
