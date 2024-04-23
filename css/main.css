@@ -222,30 +222,6 @@ h2.gallery02 {
 }
 
 
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-  color: black;
-  text-align: left;
-  filter: grayscale(100%);
-}
-
-/* text format for cards in blog page*/
-
-.card h5{
-  text-align: right;
-  font-size: 90%;
-}
-.card p{
-  text-align: left;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-
-
 @media only screen and (max-device-width: 1000px) {
   /* smaller screen specific style (hamburger menu top nav)*/
 
@@ -261,6 +237,12 @@ h2.gallery02 {
 p {
   font-size: 100%;
 }
+
+  /* Test for 100% width */
+
+  body {
+  max-wdith: 100%;
+  }
 
 @media only screen and (max-device-width: 839px) {
 p.warning {
@@ -292,9 +274,4 @@ h3 {
 }
 }
 
-p.blog {
-  font-size: 70%;
-  text-indent: 50px;
-  line-height: 140%;
 
-}
