@@ -207,6 +207,9 @@ h2.gallery02 {
 }
 */
 
+  body {
+  max-width: 100%;
+  }
 
 .topnav a.hamClass {
   display: none; /* not displayed until coded */
