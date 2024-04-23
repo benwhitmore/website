@@ -208,7 +208,11 @@ h2.gallery02 {
 */
 
   body {
-  max-width: 100%;
+  min-width: 100%;
+  }
+
+  .topnav {
+    min-width: 100%;
   }
 
 .topnav a.hamClass {
