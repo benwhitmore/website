@@ -98,6 +98,7 @@ p.pageBottom {
 text-align: center;
 padding-right: 0%;
 font-size: 10px;
+  line-height: 1.5em;
 }
 
 /* Add a black background color to the top navigation */
