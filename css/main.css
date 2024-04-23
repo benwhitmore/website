@@ -153,6 +153,7 @@ z-index:1;
   font-weight: bold;
 }
 
+/* title (my name) settings */
 .topnav a.title {
   float: left;
   font-size: 20px;
@@ -203,14 +204,10 @@ h2.gallery02 {
 
 
 @media only screen and (max-device-width: 500px) {
-  /* smaller screen specific style (hamburger menu top nav)*/
 
-.topnav a.topNavRightElement {
-  display: none;
-}
 
 .topnav a.hamClass {
-  display: block;
+  display: none; /* not displayed until coded */
   color: white;
 }
 
@@ -219,7 +216,7 @@ p {
 }
 
 .topnav a.title {
-  padding-left: 1em;
+  padding-left: 5em;
 }
 
 
