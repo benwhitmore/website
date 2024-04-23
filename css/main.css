@@ -155,7 +155,7 @@ z-index:1;
 
 /* title (my name) settings */
 .topnav a.title {
-  float: left;
+  float: block;
   font-size: 20px;
   font-weight: bold;
   color: white;
