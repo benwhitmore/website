@@ -55,27 +55,12 @@ img.banIMG {
   }
 }
 
-@media (max-width: 800px) {
-  .gallery {
-    column-count: 2;
-  }
-}
 
 /* 1 column for MOBILE  devices */
 @media (max-width: 500px) {
   .gallery {
     column-count: 1;
   }
-
-  body {
-    width: 100%;
-    max-width: 100%; /* not making content 100% page width */
-  }
-  .topnav {
-     width: 100%;
-    max-width: 100%; /* might fix above */
-  }
-  
 }
 
 /* grid for images */
@@ -235,18 +220,12 @@ p {
   font-size: 100%;
 }
 
-  /* Test for 100% width */
+.topnav a.title {
+  padding-left: 1em;
+}
 
-  body {
-  max-width: 100%;
-  width: 100%
-  }
 
-  .topnav {
-    max-width: 100%;
-    width: 100%
-  }
-
+  
 @media only screen and (max-device-width: 500px) {
 
   /* Test for 100% width */
