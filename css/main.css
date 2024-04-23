@@ -93,14 +93,8 @@ h3 {
   Padding-top: 5px;
 }
 
-/* contact page style info*/
- .contact p {
-  width: 50%;
-  margin: auto;
-}
-
 /* centering bottom page text */
-.pageBottom p {
+p.pageBottom {
 text-align: center;
 }
 
