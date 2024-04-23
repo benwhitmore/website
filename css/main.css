@@ -155,11 +155,10 @@ z-index:1;
 
 /* title (my name) settings */
 .topnav a.title {
-  float: block;
+  float: left;
   font-size: 20px;
   font-weight: bold;
   color: white;
-
 }
 
 /* warning p */
@@ -208,17 +207,19 @@ h2.gallery02 {
   /* smaller screen specific style (hamburger menu top nav)*/
 /* TEMP DISABLE, MESSES UP NAVBAR WIDTH ON MOBILE? */
 
+  /*
   .topnav a.topNavRightElement {
   display: block;
   }
-  
+  */
 
+  /*
 .topnav a.hamClass {
   display: block;
   display: none;
   color: white;
 }
-
+*/
 
 .topnav a.hamClass {
   display: block; /* not displayed until coded */
@@ -229,13 +230,11 @@ p {
   font-size: 100%;
 }
 
+  /*
 .topnav a.title {
   padding-left: 1em;
 }
-
-  .topnav {
-    
-  }
+  */
 
 
   
