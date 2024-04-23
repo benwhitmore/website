@@ -96,6 +96,8 @@ h3 {
 /* centering bottom page text */
 p.pageBottom {
 text-align: center;
+padding-right: 0%;
+font-size: 10px;
 }
 
 /* Add a black background color to the top navigation */
