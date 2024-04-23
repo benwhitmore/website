@@ -229,14 +229,15 @@ h2.gallery02 {
   text-align: center;
   padding-right: 2%;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   font-family: 'Quicksand', sans-serif;
   padding-bottom:3px;
   padding-top:3px;
 }
 
 .topnav a.title {
-font-size: 14px;
+font-size: 16px;
+padding-left: 1em;
 }
 
 
