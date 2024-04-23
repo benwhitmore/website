@@ -229,7 +229,8 @@ h2.gallery02 {
 p {
   font-size: 100%;
 }
- 
+
+  /*
 @media only screen and (max-device-width: 500px) {
 
   p.warning {
@@ -252,14 +253,14 @@ h3 {
 }
 
 .topnav a.title {
-  float: left;  /* TEMP Disable */
+  float: left;
   font-size: 16px;
   font-weight: bold;
   padding-top:3.5px;
   color: white;
   padding-left:1em;
-
+  }
 }
-}
+*/
 
 
