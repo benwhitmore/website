@@ -226,6 +226,12 @@ h2.gallery02 {
   padding-top:3px;
 }
 
+.topnav a.title {
+font-size: 14px;
+}
+
+
+  
 p {
   font-size: 100%;
 }
