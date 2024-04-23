@@ -205,6 +205,20 @@ h2.gallery02 {
 
 @media only screen and (max-device-width: 500px) {
 
+  /* smaller screen specific style (hamburger menu top nav)*/
+/* TEMP DISABLE, MESSES UP NAVBAR WIDTH ON MOBILE? */
+/*
+  .topnav a.topNavRightElement {
+  display: none;
+}
+  */
+
+.topnav a.hamClass {
+  display: block;
+  display: none;
+  color: white;
+}
+
 
 .topnav a.hamClass {
   display: none; /* not displayed until coded */
@@ -221,6 +235,7 @@ p {
 
   .topnav {
     width: 100%;
+    display: block;
   }
 
 
