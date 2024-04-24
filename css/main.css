@@ -212,6 +212,10 @@ h2.gallery02 {
   min-width: 100%;
   }
 
+  .h2 {
+  font-size: 50%;
+  }
+
   .topnav {
     min-width: 100%;
     max-width: 100%;
@@ -247,37 +251,6 @@ p {
   font-size: 100%;
 }
 
-  /*
-@media only screen and (max-device-width: 500px) {
 
-  p.warning {
-  padding-top: 2em;
-  padding-bottom: 5em;
-}
-}
-
-h2 {
-  font-size: 100%;
-}
-
-h3 {
-  font-size: 100%;
-}
-
-
-.hamCheck input:checked ~ .topnav a.hamClass {
-  color: red;
-}
-
-.topnav a.title {
-  float: left;
-  font-size: 16px;
-  font-weight: bold;
-  padding-top:3.5px;
-  color: white;
-  padding-left:1em;
-  }
-}
-*/
 
 
