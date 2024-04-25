@@ -107,7 +107,7 @@ h2 {
   }
 
 h2.top{
-  padding-top: 65px; /* Top-most h2 element has top padding so that it doesn't hide behind navbar */
+  padding-top: 40 px; /* Top-most h2 element has top padding so that it doesn't hide behind navbar */
   }
 
 h3 {
