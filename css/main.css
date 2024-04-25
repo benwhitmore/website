@@ -20,7 +20,9 @@ body.content {
   }
 
 div.aboutText {
+  margin-top: 10px;
   margin-left: 10px;
+  padding-left: 15px;
   border-left:1px solid;
   border-color:grey;
 }
