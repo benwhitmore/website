@@ -48,6 +48,11 @@ img.icon{
   padding-right:1em;
 }
 
+h2.social{
+  font-weight: bold;
+  font-size: 18px;
+}
+
 /* 2 columns for non-mobile screens*/
 @media (max-width: 800px) {
   .gallery {
