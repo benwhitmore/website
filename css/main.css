@@ -53,6 +53,10 @@ h2.social{
   font-size: 18px;
 }
 
+a.aimg{
+text-decoration: none; /* fixes weird hyperlink dot on href images */
+}
+
 /* 2 columns for non-mobile screens*/
 @media (max-width: 800px) {
   .gallery {
