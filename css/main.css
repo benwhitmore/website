@@ -52,6 +52,7 @@ img.icon{
   height: auto;
   display: inline-block;
   padding-right:1em;
+  padding-bottom:2em; /* added this so that small font at bottom of page is further away, might need to change if icons are used elsewhere.*/
   }
 
 h2.social{
