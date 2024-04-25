@@ -103,6 +103,9 @@ h2 {
   padding-bottom: 5px;
   Padding-top: 5px;
 }
+h2.top{
+  padding-top: 35px; /* Top-most h2 element has top padding so that it doesn't hide behind navbar */
+}
 h3 {
   padding-right: 10%;
   text-align:left;
