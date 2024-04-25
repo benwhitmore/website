@@ -45,6 +45,7 @@ img.icon{
   max-width: 10%;
   height: auto;
   display: inline-block;
+  padding-right:1em;
 }
 
 /* 2 columns for non-mobile screens*/
