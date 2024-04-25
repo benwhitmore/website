@@ -10,34 +10,34 @@ body {
   max-width: 50%;
   min-width: 10%;
   /* text */
-    font-family: 'Quicksand', sans-serif;
-    padding-bottom: 5em;
-}
+  font-family: 'Quicksand', sans-serif;
+  padding-bottom: 5em;
+  }
 
 body.content {
   margin-left: auto;
   margin-right: auto;
-}
+  }
 
 /* main gallery properties */
 .gallery {
-  line-height:0;
+   line-height:0;
    column-count:2; /* # of columns*/
    column-gap:5px; /* space between columnms */
-}
+  }
 
 .illustrationGallery {
   width: auto;
   height: 50%;
   min-height: 100%; /* why 50% height but min height 100% ? */
-}
+  }
 
 /* image size properties */
 img.mainIMG{
   width: 100%;
   height: 100%; /* 100% = fullscale ? */
   margin-bottom:5px; /* to match column gap*/
-}
+  }
 
 /* icon image size properties for about page */
 
@@ -46,48 +46,51 @@ img.icon{
   height: auto;
   display: inline-block;
   padding-right:1em;
-}
+  }
 
 h2.social{
   font-weight: bold;
   font-size: 18px;
-}
+  }
 
 a.aimg{
-text-decoration: none; /* fixes weird hyperlink dot on href images */
-}
+  text-decoration: none; /* fixes weird hyperlink dot on href images */
+  }
 
 /* 2 columns for non-mobile screens*/
 @media (max-width: 800px) {
   .gallery {
     column-count: 2;
+    }
   }
-}
 /* 1 column for MOBILE  devices */
 @media (max-width: 500px) {
   .gallery {
     column-count: 1;
+    }
   }
-}
 
 /* grid for images */
 
 div {
   color: white;
   background-color: black;
-}
+  }
 
 /* paragraph/text styling */
 p.top {
   padding-top: 35px; /* Top-most paragraph has top padding so that it doesn't hide behind navbar */
-}
+  }
+
 p.top-bold {
   padding-top: 35px; /* not sure what this does tbh */ /* I think this is gallery title */
   font-weight: bold;
-}
+  }
+
 p.bold {
   font-weight: bold;
-}
+  }
+
 p {
   padding-right: 10%;
   text-align:left; /* Possibly causing issue, also no padding-left: 10%;*/
@@ -95,49 +98,59 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 5px;
-}
+  }
 
 h2 {
   text-align:left;
   font-weight: 300;
   padding-bottom: 5px;
   Padding-top: 5px;
-}
+  }
+
 h2.top{
-  padding-top: 35px; /* Top-most h2 element has top padding so that it doesn't hide behind navbar */
-}
+  padding-top: 65px; /* Top-most h2 element has top padding so that it doesn't hide behind navbar */
+  }
+
 h3 {
   padding-right: 10%;
   text-align:left;
   font-weight: 300;
   padding-bottom: 5px;
   Padding-top: 5px;
-}
+  }
 
 /* centering bottom page text */
 p.pageBottom {
-text-align: center;
-padding-right: 0%;
-font-size: 10px;
+  text-align: center;
+  padding-right: 0%;
+  font-size: 10px;
   line-height: 1.5em;
-}
+  }
+
+/* small font for about page  */
+p.smallFont{
+  text-align: left;
+  padding-right: 0%;
+  font-size: 10px;
+  line-height: 1.5em;
+  }
 
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: black;
   overflow: visible;
   position: fixed; /* Set the navbar to fixed position */
-top: 0; /* Position the navbar at the top of the page */
-width: 100%; /* Full width */  
-max-width: 50%;  /* max width 50% for PC devices */
-border-bottom:1px solid;
-border-color:grey;
-flex: auto;
-display: block;
-margin-left: auto;
-margin-right: auto;
-z-index:1;
-}
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */  
+  max-width: 50%;  /* max width 50% for PC devices */
+  border-bottom:1px solid;
+  border-color:grey;
+  flex: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index:1;
+  }
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -151,18 +164,18 @@ z-index:1;
   font-family: 'Quicksand', sans-serif;
   padding-bottom:3px;
   padding-top:3px;
-}
+  }
 
 /* Change the color of links on hover */
 .topnav a.topNavRightElement:hover {
   color: white;
-}
+  }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   color: white;
   font-weight: bold;
-}
+  }
 
 /* title (my name) settings */
 .topnav a.title {
@@ -170,7 +183,7 @@ z-index:1;
   font-size: 20px;
   font-weight: bold;
   color: white;
-}
+  }
 
 /* warning p */
 
@@ -185,7 +198,7 @@ h2.gallery01 {
   margin-left: auto;
   margin-right: auto;
   font-weight: bold;
-}
+  }
 
 h2.gallery02 {
   text-align: right;
@@ -197,17 +210,17 @@ h2.gallery02 {
   margin-left: auto;
   margin-right: auto;
   font-weight: bold;
-}
+  }
 
 .topnav a.hamburger {
   display: none;
-}
+  }
 
 /* hamburger menu test*/
 
 .topnav a.hamClass {
   display: none;
-}
+  }
 
 
 @media only screen and (max-device-width: 500px) {
@@ -230,47 +243,45 @@ h2.gallery02 {
 */
 
   body {
-  min-width: 100%;
+    min-width: 100%;
   }
 
   .h2 {
-  font-size: 50%;
+    font-size: 50%;
   }
 
   .topnav {
     min-width: 100%;
     max-width: 100%;
     width: 100%;
-  }
+    }
 
-.topnav a.hamClass {
-  display: none; /* not displayed until coded */
-  color: white;
-}
+  .topnav a.hamClass {
+    display: none; /* not displayed until coded */
+    color: white;
+    }
 
   .topnav a {
-  float: right;
-  color: grey;
-  background-color:black;
-  text-align: center;
-  padding-right: 2%;
-  text-decoration: none;
-  font-size: 14px;
-  font-family: 'Quicksand', sans-serif;
-  padding-bottom:3px;
-  padding-top:3px;
-}
+    float: right;
+    color: grey;
+    background-color:black;
+    text-align: center;
+    padding-right: 2%;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom:3px;
+    padding-top:3px;
+    }
 
-.topnav a.title {
-font-size: 16px;
-padding-left: 1em;
-}
+  .topnav a.title {
+    font-size: 16px;
+    padding-left: 1em;
+    }
 
-
-  
-p {
-  font-size: 100%;
-}
+  p {
+    font-size: 100%;
+    }
 
 
 
