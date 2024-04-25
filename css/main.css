@@ -19,6 +19,12 @@ body.content {
   margin-right: auto;
   }
 
+div.aboutText {
+  margin-left: 10px;
+  border-left:1px solid;
+  border-color:grey;
+}
+
 /* main gallery properties */
 .gallery {
    line-height:0;
