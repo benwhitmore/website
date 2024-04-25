@@ -42,8 +42,9 @@ img.mainIMG{
 /* icon image size properties for about page */
 
 img.icon{
-  width: 50%;
-  height: 50%;
+  max-width: 10%;
+  height: auto;
+  display: inline-block;
 }
 
 /* 2 columns for non-mobile screens*/
